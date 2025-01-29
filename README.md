@@ -31,10 +31,10 @@ SRMART is an Android application designed for SRM College students to buy and se
 4. Build and run the application on an emulator or a physical device.
 
 ## 📸 Screenshots
-![WhatsApp Image 2025-01-29 at 22 59 49_4dfbc2e2](https://github.com/user-attachments/assets/41efe4e7-b452-4632-9473-47e583071227) ![WhatsApp Image 2025-01-29 at 22 59 49_f6902732](https://github.com/user-attachments/assets/7ea70649-14ca-4bde-93b4-076d446fa694)
-
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/41efe4e7-b452-4632-9473-47e583071227" width="45%" />
+  <img src="https://github.com/user-attachments/assets/7ea70649-14ca-4bde-93b4-076d446fa694" width="45%" />
+</p>
 
 ## 📝 Contribution
 1. Fork the repository.
@@ -49,11 +49,12 @@ SRMART is an Android application designed for SRM College students to buy and se
    ```
 4. Open a Pull Request.
 
-
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📞 Contact
 For any queries or contributions, feel free to reach out:
 - **Developer**: Reetam Kole
-- **Email**: rnmkole@gmail.com
+- **Email**: (Your Email Address)
 - **GitHub**: [ReetamKole](https://github.com/ReetamKole)
 
