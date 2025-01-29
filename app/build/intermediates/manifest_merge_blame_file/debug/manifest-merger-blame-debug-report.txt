@@ -1,0 +1,223 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.shopping"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:6:5-80
+11-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:6:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:7:5-81
+12-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+13-->[com.firebaseui:firebase-ui-database:3.2.2] C:\Users\Reetam K\.gradle\caches\transforms-3\ad2b94cedd99bced5bb5ae5c9878c132\transformed\jetified-firebase-ui-database-3.2.2\AndroidManifest.xml:11:5-67
+13-->[com.firebaseui:firebase-ui-database:3.2.2] C:\Users\Reetam K\.gradle\caches\transforms-3\ad2b94cedd99bced5bb5ae5c9878c132\transformed\jetified-firebase-ui-database-3.2.2\AndroidManifest.xml:11:22-64
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:19.6.0] C:\Users\Reetam K\.gradle\caches\transforms-3\086d02952a3a5c7a697d2d5011d3fe11\transformed\jetified-firebase-database-19.6.0\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:19.6.0] C:\Users\Reetam K\.gradle\caches\transforms-3\086d02952a3a5c7a697d2d5011d3fe11\transformed\jetified-firebase-database-19.6.0\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\8a4ca51df9e108591f341720433dd831\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\8a4ca51df9e108591f341720433dd831\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:9:5-41:19
+20        android:allowBackup="true"
+20-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:10:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.3.1] C:\Users\Reetam K\.gradle\caches\transforms-3\3b54e6049abfb6a543ba7e4b9e22fd8c\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:11:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:12:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:13:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:14:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.Ekart" >
+29-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:15:9-43
+30        <activity
+30-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:17:9-19:65
+31            android:name="com.app.shopping.HomeActivity"
+31-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:17:19-63
+32            android:theme="@style/Theme.AppCompat.NoActionBar" />
+32-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:19:13-63
+33        <activity android:name="com.app.shopping.SettinsActivity" />
+33-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:20:9-69
+33-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:20:19-66
+34        <activity android:name="com.app.shopping.SearchProductsActivity" />
+34-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:21:9-76
+34-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:21:19-73
+35        <activity android:name="com.app.shopping.RegisterActivity" />
+35-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:22:9-70
+35-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:22:19-67
+36        <activity android:name="com.app.shopping.ProductDetailsActivity" />
+36-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:23:9-76
+36-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:23:19-73
+37        <activity android:name="com.app.shopping.LoginActivity" />
+37-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:24:9-67
+37-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:24:19-64
+38        <activity android:name="com.app.shopping.ConfirmFinalOrderActivity" />
+38-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:25:9-79
+38-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:25:19-76
+39        <activity android:name="com.app.shopping.CartActivity" />
+39-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:26:9-66
+39-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:26:19-63
+40        <activity android:name="com.app.shopping.AdminUserProductsActivity" />
+40-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:27:9-79
+40-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:27:19-76
+41        <activity android:name="com.app.shopping.AdminNewOrdersActivity" />
+41-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:28:9-76
+41-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:28:19-73
+42        <activity android:name="com.app.shopping.AdminCategoryActivity" />
+42-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:29:9-75
+42-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:29:19-72
+43        <activity android:name="com.app.shopping.AdminAddNewProductActivity" />
+43-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:30:9-80
+43-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:30:19-77
+44        <activity android:name="com.app.shopping.MainActivity" >
+44-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:31:9-37:20
+44-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:31:19-63
+45            <intent-filter>
+45-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:32:13-36:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:33:17-69
+46-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:33:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:35:17-77
+48-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:35:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:38:9-40:59
+52            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+52-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:39:13-76
+53            android:theme="@style/Base.Theme.AppCompat" />
+53-->C:\Users\Reetam K\Downloads\SRMART\srmart\app\src\main\AndroidManifest.xml:40:13-56
+54
+55        <service
+55-->[com.google.firebase:firebase-database:19.6.0] C:\Users\Reetam K\.gradle\caches\transforms-3\086d02952a3a5c7a697d2d5011d3fe11\transformed\jetified-firebase-database-19.6.0\AndroidManifest.xml:29:9-35:19
+56            android:name="com.google.firebase.components.ComponentDiscoveryService"
+56-->[com.google.firebase:firebase-database:19.6.0] C:\Users\Reetam K\.gradle\caches\transforms-3\086d02952a3a5c7a697d2d5011d3fe11\transformed\jetified-firebase-database-19.6.0\AndroidManifest.xml:30:13-84
+57            android:directBootAware="true"
+57-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Reetam K\.gradle\caches\transforms-3\4ae90fc95974c11d197665803ade8abe\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+58            android:exported="false" >
+58-->[com.google.firebase:firebase-database:19.6.0] C:\Users\Reetam K\.gradle\caches\transforms-3\086d02952a3a5c7a697d2d5011d3fe11\transformed\jetified-firebase-database-19.6.0\AndroidManifest.xml:31:13-37
+59            <meta-data
+59-->[com.google.firebase:firebase-database:19.6.0] C:\Users\Reetam K\.gradle\caches\transforms-3\086d02952a3a5c7a697d2d5011d3fe11\transformed\jetified-firebase-database-19.6.0\AndroidManifest.xml:32:13-34:85
+60                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+60-->[com.google.firebase:firebase-database:19.6.0] C:\Users\Reetam K\.gradle\caches\transforms-3\086d02952a3a5c7a697d2d5011d3fe11\transformed\jetified-firebase-database-19.6.0\AndroidManifest.xml:33:17-109
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-database:19.6.0] C:\Users\Reetam K\.gradle\caches\transforms-3\086d02952a3a5c7a697d2d5011d3fe11\transformed\jetified-firebase-database-19.6.0\AndroidManifest.xml:34:17-82
+62            <meta-data
+62-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\Reetam K\.gradle\caches\transforms-3\4c0a8edb1f8e3254468046fd67bebe3a\transformed\jetified-firebase-storage-19.2.1\AndroidManifest.xml:33:13-35:85
+63                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+63-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\Reetam K\.gradle\caches\transforms-3\4c0a8edb1f8e3254468046fd67bebe3a\transformed\jetified-firebase-storage-19.2.1\AndroidManifest.xml:34:17-107
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\Reetam K\.gradle\caches\transforms-3\4c0a8edb1f8e3254468046fd67bebe3a\transformed\jetified-firebase-storage-19.2.1\AndroidManifest.xml:35:17-82
+65            <meta-data
+65-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\8a4ca51df9e108591f341720433dd831\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
+66                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+66-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\8a4ca51df9e108591f341720433dd831\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:31:17-139
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\8a4ca51df9e108591f341720433dd831\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:32:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\Reetam K\.gradle\caches\transforms-3\a11f3818ab68dfbeb2690f40cc848404\transformed\jetified-firebase-installations-16.3.4\AndroidManifest.xml:18:13-20:85
+69                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+69-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\Reetam K\.gradle\caches\transforms-3\a11f3818ab68dfbeb2690f40cc848404\transformed\jetified-firebase-installations-16.3.4\AndroidManifest.xml:19:17-127
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\Reetam K\.gradle\caches\transforms-3\a11f3818ab68dfbeb2690f40cc848404\transformed\jetified-firebase-installations-16.3.4\AndroidManifest.xml:20:17-82
+71            <!--
+72                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+73                clients to use it as well, by defining this registrar in their own core/common library.
+74            -->
+75            <meta-data
+75-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Reetam K\.gradle\caches\transforms-3\4ae90fc95974c11d197665803ade8abe\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+76                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+76-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Reetam K\.gradle\caches\transforms-3\4ae90fc95974c11d197665803ade8abe\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Reetam K\.gradle\caches\transforms-3\4ae90fc95974c11d197665803ade8abe\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+78        </service>
+79
+80        <provider
+80-->[com.squareup.picasso:picasso:2.71828] C:\Users\Reetam K\.gradle\caches\transforms-3\a63287661f1e684d09f19afacc581692\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+81            android:name="com.squareup.picasso.PicassoProvider"
+81-->[com.squareup.picasso:picasso:2.71828] C:\Users\Reetam K\.gradle\caches\transforms-3\a63287661f1e684d09f19afacc581692\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+82            android:authorities="com.app.shopping.com.squareup.picasso"
+82-->[com.squareup.picasso:picasso:2.71828] C:\Users\Reetam K\.gradle\caches\transforms-3\a63287661f1e684d09f19afacc581692\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+83            android:exported="false" />
+83-->[com.squareup.picasso:picasso:2.71828] C:\Users\Reetam K\.gradle\caches\transforms-3\a63287661f1e684d09f19afacc581692\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+84        <provider
+84-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Reetam K\.gradle\caches\transforms-3\4ae90fc95974c11d197665803ade8abe\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+85            android:name="com.google.firebase.provider.FirebaseInitProvider"
+85-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Reetam K\.gradle\caches\transforms-3\4ae90fc95974c11d197665803ade8abe\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+86            android:authorities="com.app.shopping.firebaseinitprovider"
+86-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Reetam K\.gradle\caches\transforms-3\4ae90fc95974c11d197665803ade8abe\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+87            android:directBootAware="true"
+87-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Reetam K\.gradle\caches\transforms-3\4ae90fc95974c11d197665803ade8abe\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+88            android:exported="false"
+88-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Reetam K\.gradle\caches\transforms-3\4ae90fc95974c11d197665803ade8abe\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+89            android:initOrder="100" />
+89-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Reetam K\.gradle\caches\transforms-3\4ae90fc95974c11d197665803ade8abe\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+90
+91        <activity
+91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\ac2fd674e549a7b3132d5e0c06b65081\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+92            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+92-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\ac2fd674e549a7b3132d5e0c06b65081\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\ac2fd674e549a7b3132d5e0c06b65081\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+94-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\ac2fd674e549a7b3132d5e0c06b65081\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+95
+96        <receiver
+96-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
+97            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+97-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
+98            android:enabled="true"
+98-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
+99            android:exported="false" >
+99-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
+100        </receiver>
+101
+102        <service
+102-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
+103            android:name="com.google.android.gms.measurement.AppMeasurementService"
+103-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
+104            android:enabled="true"
+104-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
+105            android:exported="false" />
+105-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
+106        <service
+106-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
+107            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+107-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
+108            android:enabled="true"
+108-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
+110            android:permission="android.permission.BIND_JOB_SERVICE" />
+110-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\19d7949805d9f50f43f3411449a8b0a7\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
+111
+112        <meta-data
+112-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\ba9c2b9c60a6324b5ca7f808b5170940\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+113            android:name="com.google.android.gms.version"
+113-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\ba9c2b9c60a6324b5ca7f808b5170940\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+114            android:value="@integer/google_play_services_version" />
+114-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Reetam K\.gradle\caches\transforms-3\ba9c2b9c60a6324b5ca7f808b5170940\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+115    </application>
+116
+117</manifest>

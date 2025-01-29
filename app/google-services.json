@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "548295381028",
+    "project_id": "srmart-firebase",
+    "storage_bucket": "srmart-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548295381028:android:c05ba4be64d48c8ecb08b1",
+        "android_client_info": {
+          "package_name": "com.app.shopping"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlUF0O4GzVa5wBwjxbKy_4eAQfvhcIz-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
