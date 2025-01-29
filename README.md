@@ -31,7 +31,10 @@ SRMART is an Android application designed for SRM College students to buy and se
 4. Build and run the application on an emulator or a physical device.
 
 ## 📸 Screenshots
-(Include screenshots of the app interface)
+![WhatsApp Image 2025-01-29 at 22 59 49_4dfbc2e2](https://github.com/user-attachments/assets/41efe4e7-b452-4632-9473-47e583071227)
+
+![WhatsApp Image 2025-01-29 at 22 59 49_f6902732](https://github.com/user-attachments/assets/7ea70649-14ca-4bde-93b4-076d446fa694)
+
 
 ## 📝 Contribution
 1. Fork the repository.
