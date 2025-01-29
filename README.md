@@ -49,12 +49,10 @@ SRMART is an Android application designed for SRM College students to buy and se
    ```
 4. Open a Pull Request.
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📞 Contact
 For any queries or contributions, feel free to reach out:
 - **Developer**: Reetam Kole
-- **Email**: (Your Email Address)
+- **Email**: rnmkole@gmail.com
 - **GitHub**: [ReetamKole](https://github.com/ReetamKole)
 
